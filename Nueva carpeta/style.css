@@ -1,0 +1,47 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #2B2A33;
+  margin: 40px;
+}
+
+h1 {
+    transform: translate(470px,670px);
+  color: #ffffff;
+}
+
+p {
+  transform: translate(550px,50px);
+  color: #ffffff;
+}
+
+.imagen-animada {
+  animation: flotar 3s infinite ease-in-out;
+}
+
+@keyframes flotar {
+  0% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  50% {
+    transform: translateY(-20px);
+    opacity: 0.8;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.imagen-animada {
+    width: 50%;
+    height: 50%;
+}
+
+.cuadro {
+  text-align: center;
+}
+
+.imagen {
+  width: 200px; /* opcional */
+}
